@@ -284,6 +284,36 @@ nav ul {
     padding: 1rem 3rem;
 }
 
+
+
+/*Footer styles*/
+footer {
+    color: white;
+    background: #0f4c75;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Media Query*/
 @media screen and (max-width:932px) {
     html {
@@ -307,5 +337,17 @@ nav ul {
         background: rgba(15, 76, 117, 0.8);
         -webkit-text-fill-color: white;
 
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer h5 {
+        padding-bottom: 3rem;
     }
 }
