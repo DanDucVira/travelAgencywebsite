@@ -42,6 +42,10 @@ h5 {
     font-size: 2.8rem;
 }
 
+p {
+    font-size: 2rem;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -122,7 +126,7 @@ nav ul {
 /*locations Section Styles*/
 .locations {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url(/img/city1.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(/img/city1.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -177,6 +181,59 @@ nav ul {
     to {
         transform: translate(0%, 0%);
     }
+}
+
+/*Benefits styles section*/
+
+.benefits-head {
+    background: #1b262c;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center
+}
+
+.benefits-head h3 {
+    padding: 1rem;
+}
+
+.cards {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.cards img {
+    max-width: 15%;
+    margin: 2rem;
+}
+
+.card h4,
+.card p {
+    padding: 3rem;
+
+}
+
+
+
+.card-icon {
+    background: #0f4c75;
 }
 
 /*Media Query*/
