@@ -71,6 +71,9 @@ button:hover {
 .main-header {
     background: #0f4c75;
     color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
 }
 
 nav {
@@ -81,6 +84,7 @@ nav {
     align-items: center;
     padding: 2rem;
     flex-wrap: wrap;
+
 }
 
 nav ul {
@@ -124,7 +128,7 @@ nav ul {
 }
 
 /*locations Section Styles*/
-.locations {
+#locations {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(/img/city1.png);
     background-size: cover;
@@ -237,7 +241,7 @@ nav ul {
 }
 
 /*Contact section css styles*/
-.contact {
+#contact {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(/img/photo2.jpg);
     background-position: center;
